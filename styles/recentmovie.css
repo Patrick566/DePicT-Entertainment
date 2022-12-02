@@ -1,7 +1,4 @@
-body {
-    font-family: 'Inter', bold;
-    font-size: 24pt;
-}
+
 
 /* Colors */
 .secondary-bg {
@@ -25,7 +22,7 @@ body {
 
 /* Page Title */
 .title h1 {
-    font-size: 100pt;
+    font-size: 50pt;
     font-family: 'Ovo, sans-serif';
     color:white;
 }
@@ -35,15 +32,22 @@ body {
 
 
 .featured img {
-    height: 60vh;
+    position: relative;
+    height: 80vh;
 }
 
 
+.featured-description h3, p {
+    font-family: 'Inter';
+}
+
 .featured-description h3 {
-    font-family: 'Inter', bold;
     font-size: 30pt;
     font-weight: 700;
+}
 
+.featured-description p {
+    font-size: 20pt;
 }
 
 .rating {
