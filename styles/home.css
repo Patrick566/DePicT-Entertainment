@@ -2,6 +2,11 @@ body {
     font-family:'Inter', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+nav {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: solid 1px black;
+}
+
 .color a, #navbarDropdown, .navbar-light .navbar-brand{
     color:#DE3C4B;
 }
