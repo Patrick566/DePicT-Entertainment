@@ -1,0 +1,64 @@
+
+
+/* Colors */
+.secondary-bg {
+    background-color: #DE3C4B;
+}
+
+.primary2-bg {
+    background-color: #FFF4E4;
+}
+
+/* Bootstrap edits */
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.container {
+    max-width: none;
+    padding:50px;
+}
+
+/* Page Title */
+.title h1 {
+    font-size: 50pt;
+    font-family: 'Ovo, sans-serif';
+    color:white;
+}
+
+/* Featured movie */
+
+
+
+.featured img {
+    position: relative;
+    height: 80vh;
+}
+
+
+.featured-description h3, p {
+    font-family: 'Inter';
+}
+
+.featured-description h3 {
+    font-size: 30pt;
+    font-weight: 700;
+}
+
+.featured-description p {
+    font-size: 20pt;
+}
+
+.rating {
+    position: relative;
+    height:40px;
+    background-color: #DE3C4B;
+    border-radius:20px;
+    top: 5px;
+}
+.rating img {
+    position: relative;
+    bottom: 18px;
+    height: 80px;
+}
