@@ -1,5 +1,5 @@
-nav {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+body {
+    font-family:'Inter', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .color a, #navbarDropdown, .navbar-light .navbar-brand{
@@ -8,4 +8,28 @@ nav {
 
 nav ul li{
     padding : 0 40px 0 40px;
+}
+
+.carousel-caption{
+    bottom:290px;
+    text-align: left;
+    left:5%;
+}
+
+#moviesandtv{
+    width:240px;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+
+.card-body{
+    background-color: #DE3C4B;
+}
+
+.card a{
+    color:black;
+}
+
+.card-deck{
+    padding: 0 40px 0 40px;
 }
