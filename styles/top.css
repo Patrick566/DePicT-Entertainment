@@ -1,0 +1,30 @@
+/* Color */
+.secondary-bg {
+    background-color: #DE3C4B;
+}
+
+.primary2-bg {
+    background-color: #FFF4E4;
+}
+
+/* Title */
+
+#toptitle {
+    height: 20%;
+    font-family: 'Ovo, sans-serif';
+    font-size: 60pt;
+}
+
+/* General Movie Event */
+.movie {
+    height: 45%;
+    font-family: 'Inter';
+}
+.movie-description h1 {
+    font-weight: 700;
+    font-size: 30pt;
+}
+
+.movie-description h2 {
+    font-size: 20pt;
+}
