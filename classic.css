@@ -1,0 +1,25 @@
+/*navbar style*/
+nav {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.color a, #navbarDropdown, .navbar-light .navbar-brand{
+    color:#DE3C4B;
+}
+nav ul li{
+    padding : 0 40px 0 40px;
+}
+
+#classics_title
+{
+    height: 20%;
+    background-color: #FFF4E4;
+    font-size: 60pt;
+    font-family: 'Ovo, sans-serif';
+}
+
+.carousel-item img{
+    width: 100%;
+    align-self: center;
+    max-height: 70vh;
+}
+
