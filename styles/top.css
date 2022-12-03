@@ -15,16 +15,62 @@
     font-size: 60pt;
 }
 
-/* General Movie Event */
-.movie {
-    height: 45%;
+/* General Banner style */
+
+.banner {
     font-family: 'Inter';
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.movie-description h1 {
+
+.banner-description h1 {
     font-weight: 700;
     font-size: 30pt;
 }
 
-.movie-description h2 {
+.banner-description h2 {
     font-size: 20pt;
 }
+
+/* Movie ackground images */
+.top-movie-10 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top10.png");
+}
+
+.top-movie-9 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top9.png");
+}
+
+.top-movie-8 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top8.png");
+}
+
+.top-movie-7 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top7.png");
+}
+
+.top-movie-6 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top6.png");
+}
+
+.top-movie-5 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top5.png");
+}
+
+.top-movie-4 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top4.png");
+}
+
+.top-movie-3 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top3.png");
+}
+
+.top-movie-2 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top2.png");
+}
+
+.top-movie-1 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top1.png");
+}
+
