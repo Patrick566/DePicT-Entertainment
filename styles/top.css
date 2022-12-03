@@ -1,3 +1,6 @@
+body {
+    font-family:'Inter';
+}
 /* Color */
 .secondary-bg {
     background-color: #DE3C4B;
@@ -7,70 +10,111 @@
     background-color: #FFF4E4;
 }
 
+/* Nav alterations */
+.current {
+    font-weight:bolder;
+}
 /* Title */
 
 #toptitle {
     height: 20%;
-    font-family: 'Ovo, sans-serif';
+    font-weight: 700;
     font-size: 60pt;
 }
 
 /* General Banner style */
 
+.number {
+    font-size: 40pt;
+    background-color: #DE3C4B;
+    color: white;
+}
+
+.number p {
+    margin-bottom:0;
+}
+
 .banner {
-    font-family: 'Inter';
-    height: 60vh;
+    padding:10px;
+    min-height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.banner-description h1 {
-    font-weight: 700;
+.banner h1 {
+    font-weight:bolder;
     font-size: 30pt;
+    margin-bottom: 5vh;
+    padding-left:15px;
 }
 
-.banner-description h2 {
-    font-size: 20pt;
+.banner h2 {
+    display:inline;
+    font-size: 25pt;
+    padding-left:15px;
 }
+
+.rating {
+    display: inline-block;
+    position:relative;
+    background-color: #DE3C4B;
+    border-radius:20px;
+    padding: 5px 4vw 5px 4vw;
+}
+.rating h2::before {
+    margin-right: 1vw;
+    color:yellow;
+    content: '✭';
+
+}
+
+.banner p {
+    overflow: scroll;
+    margin-top: 50px;
+    max-height: 30vh;
+    font-size: 15pt;
+}
+
+
 
 /* Movie ackground images */
-.top-movie-10 {
+#top-movie-10 {
     background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top10.png");
 }
 
-.top-movie-9 {
+#top-movie-9 {
     background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top9.png");
 }
 
-.top-movie-8 {
+#top-movie-8 {
     background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top8.png");
 }
 
-.top-movie-7 {
+#top-movie-7 {
     background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top7.png");
 }
 
-.top-movie-6 {
+#top-movie-6 {
     background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top6.png");
 }
 
-.top-movie-5 {
+#top-movie-5 {
     background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top5.png");
 }
 
-.top-movie-4 {
+#top-movie-4 {
     background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top4.png");
 }
 
-.top-movie-3 {
+#top-movie-3 {
     background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top3.png");
 }
 
-.top-movie-2 {
+#top-movie-2 {
     background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top2.png");
 }
 
-.top-movie-1 {
+#top-movie-1 {
     background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/top1.png");
 }
 
