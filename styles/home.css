@@ -16,6 +16,10 @@ nav ul li{
     padding : 0 40px 0 40px;
 }
 
+.current {
+    font-weight:bolder;
+}
+
 .carousel-caption{
     bottom:290px;
     text-align: left;

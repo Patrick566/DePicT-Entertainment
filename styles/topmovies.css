@@ -1,0 +1,82 @@
+/* Movie background images */
+#top-movie-10 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/movies/top10.png");
+}
+
+#top-movie-9 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/movies/top9.png");
+}
+
+#top-movie-8 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/movies/top8.png");
+}
+
+#top-movie-7 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/movies/top7.png");
+}
+
+#top-movie-6 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/movies/top6.png");
+}
+
+#top-movie-5 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/movies/top5.png");
+}
+
+#top-movie-4 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/movies/top4.png");
+}
+
+#top-movie-3 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/movies/top3.png");
+}
+
+#top-movie-2 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/movies/top2.png");
+}
+
+#top-movie-1 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/movies/top1.png");
+}
+
+/* Background At Small Media */
+@media (max-width: 575px) {
+    #top-movie-10 {
+        background-image: url("https://m.media-amazon.com/images/I/51IVROvHQoL._AC_.jpg");
+    }
+    #top-movie-9 {
+        background-image: url("https://m.media-amazon.com/images/I/A1yy50fuVnL._RI_.jpg");
+    }
+    
+    #top-movie-8 {
+        background-image: url("https://ae01.alicdn.com/kf/H6d77c0d35b2e4c92bc87a410961cdc99J.jpg?width=848&height=1200&hash=2048");
+    }
+    
+    #top-movie-7 {
+        background-image: url("https://m.media-amazon.com/images/I/A1fxP2apVnL._RI_.jpg");
+    }
+    
+    #top-movie-6 {
+        background-image: url("https://i.etsystatic.com/6849517/r/il/c12f50/374183952/il_fullxfull.374183952_58fi.jpg");
+    }
+    
+    #top-movie-5 {
+        background-image: url("https://pbharat.files.wordpress.com/2013/04/12angrymen-6.jpeg?w=584");
+    }
+    
+    #top-movie-4 {
+        background-image: url("https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg");
+    }
+    
+    #top-movie-3 {
+        background-image: url("https://m.media-amazon.com/images/I/51r4i5VQK3L._AC_SY580_.jpg");
+    }
+    
+    #top-movie-2 {
+        background-image: url("https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg");
+    }
+    
+    #top-movie-1 {
+        background-image: url("https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg");
+    }
+}
