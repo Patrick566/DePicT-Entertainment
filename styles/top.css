@@ -1,15 +1,3 @@
-body {
-    font-family:'Inter';
-}
-/* Color */
-.secondary-bg {
-    background-color: #DE3C4B;
-}
-
-.primary2-bg {
-    background-color: #FFF4E4;
-}
-
 /* Title */
 #toptitle {
     height: 20%;
