@@ -1,11 +1,9 @@
 
 
-#classics_title
-{
+#classics_title {
     height: 20%;
-    background-color: #FFF4E4;
+    font-weight: 700;
     font-size: 60pt;
-    font-family: 'Ovo, sans-serif';
 }
 
 
