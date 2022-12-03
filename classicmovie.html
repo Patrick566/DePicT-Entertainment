@@ -11,25 +11,25 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Your Personal CSS BELOW this Line -->
-    <link rel="stylesheet" type="text/css" href="classic.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="styles/general.css">
+    <link rel="stylesheet" type="text/css" href="styles/classic.css">
     <title>Home</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white color sticky-top">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white secondary">
         <a class="navbar-brand" href="home.html">
-            <img src="logo.png" width="30" height="30" alt="logo">
+            <img src="images/logo.png" width="30" height="30" alt="logo">
             DePicT Entertainment
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Movies</a>
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Movies</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="recentmovie.html">Recent & Upcoming</a>
                         <a class="dropdown-item" href="classicmovie.html">Classic</a>
@@ -37,21 +37,20 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">TV</a>
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TV</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="classictv.html">Classic</a>
                         <a class="dropdown-item" href="toptv.html">Top 10</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"><img src="search.png" width="30" height="30" alt="search"></a>
+                    <a class="nav-link"><img src="images/search.png" width="30" height="30" alt="search"></a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="text-center" id="classics_title">The Classics</div>
+    <div class="text-center primary2-bg" id="classics_title">The Classics</div>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">

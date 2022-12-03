@@ -1,20 +1,3 @@
-body {
-    font-family:'Inter', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-nav {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-bottom: solid 1px black;
-}
-
-.color a, #navbarDropdown, .navbar-light .navbar-brand{
-    color:#DE3C4B;
-}
-
-nav ul li{
-    padding : 0 40px 0 40px;
-}
-
 .carousel-caption{
     bottom:290px;
     text-align: left;

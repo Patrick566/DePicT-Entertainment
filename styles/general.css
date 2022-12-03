@@ -1,0 +1,42 @@
+/* Overall Font */
+body {
+    font-family:'Inter';
+}
+
+/* Color */
+.secondary-bg {
+    background-color: #DE3C4B;
+}
+
+.secondary {
+    color: #DE3C4B;
+}
+
+.primary2-bg {
+    background-color: #FFF4E4;
+}
+
+/* Navbar */
+.secondary a, #navbarDropdown, .navbar-light .navbar-brand{
+    color:#DE3C4B;
+}
+
+nav {
+    border-bottom: solid 1px black;
+}
+
+nav ul li{
+    padding : 0 40px 0 40px;
+}
+
+.current {
+    font-weight:bolder;
+}
+
+/* Carousel */
+.carousel-item img{
+    width: 100%;
+    align-self: center;
+    max-height: 70vh;
+}
+/* Footer */

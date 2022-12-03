@@ -1,0 +1,67 @@
+/* Title */
+#toptitle {
+    height: 20%;
+    font-weight: 700;
+    font-size: 60pt;
+}
+
+
+/* Top 10 Number style */
+.number {
+    font-size: 40pt;
+    background-color: #DE3C4B;
+    color: white;
+}
+
+.number p {
+    margin-bottom:0;
+}
+
+/* General Banner style */
+.banner {
+    padding:10px;
+    min-height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner h1 {
+    font-weight:bolder;
+    font-size: 30pt;
+    margin-bottom: 5vh;
+    padding-left:15px;
+}
+
+.banner h2 {
+    display:inline;
+    font-size: 25pt;
+    padding-left:15px;
+}
+
+.banner p {
+    overflow: scroll;
+    margin-top: 50px;
+    max-height: 30vh;
+    font-size: 15pt;
+}
+/* Star Rating Style */
+.rating {
+    display: inline-block;
+    position:relative;
+    background-color: #DE3C4B;
+    border-radius:20px;
+    padding: 5px 1vw 5px 0;
+}
+.rating h2::before {
+    margin-right: 2vw;
+    color:yellow;
+    content: '✭';
+
+}
+
+/* Small Media */
+@media (max-width:575px) {
+    .banner {
+        color: white;
+    }
+}
