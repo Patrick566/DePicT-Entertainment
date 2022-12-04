@@ -20,7 +20,7 @@
 /* General Banner style */
 .banner {
     padding:10px;
-    min-height: 60vh;
+    min-height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -41,7 +41,7 @@
 .banner p {
     overflow: scroll;
     margin-top: 50px;
-    max-height: 30vh;
+    max-height: 35vh;
     font-size: 15pt;
 }
 /* Star Rating Style */

@@ -1,0 +1,83 @@
+/* Movie background images */
+#top-tv-10 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/tv/top10.png");
+}
+
+#top-tv-9 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/tv/top9.png");
+}
+
+#top-tv-8 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/tv/top8.png");
+}
+
+#top-tv-7 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/tv/top7.png");
+}
+
+#top-tv-6 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/tv/top6.png");
+}
+
+#top-tv-5 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/tv/top5.png");
+}
+
+#top-tv-4 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/tv/top4.png");
+}
+
+#top-tv-3 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/tv/top3.png");
+}
+
+#top-tv-2 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/tv/top2.png");
+}
+
+#top-tv-1 {
+    background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/tv/top1.png");
+}
+
+/* Background At Small Media */
+@media (max-width: 575px) {
+    #top-tv-10 {
+        background-image: url("https://www.themoviedb.org/t/p/original/w8Zzm39htcmAZr5Jq6VQijFccJF.jpg");
+    }
+    
+    #top-tv-9 {
+        background-image: url("https://static.displate.com/857x1200/displate/2017-01-20/3da975076835246dda26b95fd5ac369b.jpg");
+    }
+    
+    #top-tv-8 {
+        background-image: url("https://i5.walmartimages.com/asr/3f5de02d-47db-4251-a4ed-2d82dcb101ff.ce0e69f02feaf1d792b7e0b72c48e449.jpeg");
+    }
+    
+    #top-tv-7 {
+        background-image: url("https://cms.bbcearth.com/sites/default/files/2020-11/Blue%20Planet%20II%20tile_592x888px.png");
+    }
+    
+    #top-tv-6 {
+        background-image: url("https://i.ebayimg.com/images/g/ICsAAOSwe-FU7Vax/s-l1600.jpg");
+    }
+    
+    #top-tv-5 {
+        background-image: url("https://static.displate.com/280x392/displate/2020-03-12/ddd047932b76c02d9cc89b19b60c2c7d_f04387dcec3d4c96d54b112f72cd2247.jpg");
+    }
+    
+    #top-tv-4 {
+        background-image: url("https://movieposters2.com/images/649779-b.jpg");
+    }
+    
+    #top-tv-3 {
+        background-image: url("https://streamcoimg-a.akamaihd.net/000/105/8/1058-PosterArt-0afa05db9ac0ee80c6bc5f7030b92dbd.jpeg");
+    }
+    
+    #top-tv-2 {
+        background-image: url("https://static.displate.com/280x392/displate/2020-03-05/d8b30fd433a5a22421ecd42ede6a42dc_dab120d8c5325ea700d892b72d0e740f.jpg");
+    }
+    
+    #top-tv-1 {
+        background-image: url("/Users/derek/Desktop/ATCS/DePicT-Entertainment/images/tv/earth2.png");
+    }
+}
