@@ -1,5 +1,13 @@
-/* Bootstrap edits */
+/* Colors */
+.secondary-bg {
+    background-color: #DE3C4B;
+}
 
+.primary2-bg {
+    background-color: #FFF4E4;
+}
+
+/* Bootstrap edits */
 .jumbotron {
     margin-bottom: 0;
 }
@@ -17,9 +25,6 @@
 }
 
 /* Featured movie */
-
-
-
 .featured img {
     position: relative;
     height: 80vh;
@@ -50,4 +55,13 @@
     position: relative;
     bottom: 18px;
     height: 80px;
+}
+
+/* Recent Movies */
+.subtitle{
+    padding:20px 0 20px 20px;
+}
+
+.card-body{
+    background-color:white;
 }
