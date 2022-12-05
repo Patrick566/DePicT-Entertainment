@@ -18,6 +18,8 @@
 </head>
 
 <body>
+     <!-- Navbar: https://getbootstrap.com/docs/4.0/components/navbar/-->
+    <!-- Dropdown: https://getbootstrap.com/docs/4.0/components/dropdowns/-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white color sticky-top">
         <a class="navbar-brand" href="home.html">
             <img src="images/logo.png" width="30" height="30" alt="logo">
@@ -55,6 +57,49 @@
     <div class="jumbotron jumbotron-fluid secondary-bg">
         <div class="d-flex justify-content-center title">
             <h1 class="lead">Recent & Upcoming</h1>
+         <title>Recent Movies</title> 
+         <link rel="stylesheet" type="text/css" href="styles/home.css">
+         <link rel="stylesheet" type="text/css" href="styles/recentmovie.css">
+
+    </head>
+    <body>
+        <!-- Navbar: https://getbootstrap.com/docs/4.0/components/navbar/-->
+        <!-- Dropdown: https://getbootstrap.com/docs/4.0/components/dropdowns/-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white color sticky-top">
+            <a class="navbar-brand" href="home.html">
+                <img src="images/logo.png" width="30" height="30" alt="logo">
+                DePicT Entertainment
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Movies</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="recentmovie.html">Recent & Upcoming</a>
+                            <a class="dropdown-item" href="classicmovie.html">Classic</a>
+                            <a class="dropdown-item" href="topmovie.html">Top 10</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TV</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="classictv.html">Classic</a>
+                            <a class="dropdown-item" href="toptv.html">Top 10</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><img src="images/search.png" width="30" height="30" alt="search"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="jumbotron jumbotron-fluid secondary-bg">
+            <div class="d-flex justify-content-center title">
+                <h1 class="lead">Recent & Upcoming</h1>
+            </div>
         </div>
     </div>
     <div class="container primary2-bg">
