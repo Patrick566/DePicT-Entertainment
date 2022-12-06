@@ -1,81 +1,208 @@
 <!DOCTYPE html>
 <html>
-    <head>
-         <!-- Required meta tags -->
-         <meta charset="utf-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 
-         <!-- Bootstrap CSS -->
-         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-         <title>Recent Movies</title> 
-         <link rel="stylesheet" type="text/css" href="styles/home.css">
-         <link rel="stylesheet" type="text/css" href="styles/recentmovie.css">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    </head>
-    <body>
-        <!-- Navbar credit:  -->
-        <!-- Dropdown credit:  -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white color sticky-top">
-            <a class="navbar-brand" href="home.html">
-                <img src="images/logo.png" width="30" height="30" alt="logo">
-                DePicT Entertainment
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Movies</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="recentmovie.html">Recent & Upcoming</a>
-                            <a class="dropdown-item" href="classicmovie.html">Classic</a>
-                            <a class="dropdown-item" href="topmovie.html">Top 10</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">TV</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="classictv.html">Classic</a>
-                            <a class="dropdown-item" href="toptv.html">Top 10</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"><img src="images/search.png" width="30" height="30" alt="search"></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="jumbotron jumbotron-fluid secondary-bg">
-            <div class="d-flex justify-content-center title">
-                <h1 class="lead">Recent & Upcoming</h1>
-            </div>
-        </div>
-        <div class="container primary2-bg">
-            <div class="row">
-                <div class="featured offset-lg-1 col-lg-3">
-                    <img src="https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_FMjpg_UX1000_.jpg">
-                </div>
-                <div class="featured-description offset-lg-2 col-lg-6">
-                    <h3>
-                        Everything, Everywhere, All At Once
-                    </h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-                    </p>
-                    <div class="row">
-                        <h3 class="col-sm-6">Rotten Tomatoes:</h3>
-                        <div class="rating">
-                            <img src="images/95%.png">
-                        </div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Recent Movies</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="styles/home.css">
+    <link rel="stylesheet" type="text/css" href="styles/recentmovie.css">
+    <link rel="stylesheet" type="text/css" href="styles/general.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white color sticky-top">
+        <a class="navbar-brand" href="home.html">
+            <img src="images/logo.png" width="30" height="30" alt="logo">
+            DePicT Entertainment
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Movies</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="recentmovie.html">Recent & Upcoming</a>
+                        <a class="dropdown-item" href="classicmovie.html">Classic</a>
+                        <a class="dropdown-item" href="topmovie.html">Top 10</a>
                     </div>
-            
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">TV</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="classictv.html">Classic</a>
+                        <a class="dropdown-item" href="toptv.html">Top 10</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"><img src="images/search.png" width="30" height="30" alt="search"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid secondary-bg">
+        <div class="d-flex justify-content-center title">
+            <h1 class="lead">Recent & Upcoming</h1>
+        </div>
+    </div>
+    <div class="container primary2-bg">
+        <div class="row">
+            <div class="featured offset-lg-1 col-lg-3">
+                <img
+                    src="https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_FMjpg_UX1000_.jpg">
+            </div>
+            <div class="featured-description offset-lg-2 col-lg-6">
+                <h3>Everything, Everywhere, All At Once</h3>
+                <p>Directed by Daniel Kwan and Daniel Scheinert, collectively known as Daniels, the film is a hilarious
+                    and big-hearted sci-fi action adventure about an exhausted Chinese American woman (Michelle Yeoh)
+                    who can't seem to finish her taxes.</p>
+                <p> Starring: Michelle Yeoh, Stephanie Hsu, Ke Huy Quan, Jenny Slate, Harry Shum Jr., James Hong, Jamie
+                    Lee Curtis</p>
+                <div class="row">
+                    <h3 class="col-sm-8">Rotten Tomatoes:</h3>
+                    <div class="rating">
+                        <img src="images/95%.png">
+                    </div>
                 </div>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
+    </div>
+    <h4 class="subtitle">Recent</h4>
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top"
+                src="https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/MasterRepository/fandango/226753/BlackPanther-WakandaForever_Payoff_1-Sht_v10_lg.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Wakanda Forever</h5>
+                <p class="card-text text-center">2022</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top"
+                src="https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/MasterRepository/fandango/229237/VNT_Tsr1Sheet1_RGB_5.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Violent Night</h5>
+                <p class="card-text text-center">2022</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top"
+                src="https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/MasterRepository/fandango/228137/PULP_Payoff_Descent_1s_v40_B_Mech10b_FS.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Strange World</h5>
+                <p class="card-text text-center">2022</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top"
+                src="https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/MasterRepository/fandango/227745/DEV_OnLine_1400x2100_TSR_08_667x1000_thumbnail.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Devotion</h5>
+                <p class="card-text text-center">2022</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top"
+                src="https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/MasterRepository/fandango/228122/BonesAndAll2022.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Bones and All</h5>
+                <p class="card-text text-center">2022</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top"
+                src="https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/MasterRepository/fandango/223367/BLAD_VERT_MAIN_2764x4096_DOM.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Black Adam</h5>
+                <p class="card-text text-center">2022</p>
+            </div>
+        </div>
+    </div>
+    <h4 class="subtitle">Upcoming</h4>
+    <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top"
+                src="https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/MasterRepository/fandango/229112/babonline1shtcrowd-margotfin9.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Babylon</h5>
+                <p class="card-text text-center">2022</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top"
+                src="https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/MasterRepository/fandango/229833/CREED_1080X1600-Teaser.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Creed III</h5>
+                <p class="card-text text-center">2023</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top"
+                src="https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/MasterRepository/fandango/230392/HIGH_HEAT_2MB.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">High Heat</h5>
+                <p class="card-text text-center">2022</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top"
+                src="https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/MasterRepository/fandango/228960/TheLittleMermaid_Digital_Teaser_KeyArt_v4_Lg.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">The Little Mermaid</h5>
+                <p class="card-text text-center">2023</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top"
+                src="https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/MasterRepository/fandango/230194/MindcageKeyArt.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Mindcage</h5>
+                <p class="card-text text-center">2022</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top"
+                src="https://images.fandango.com/ImageRenderer/200/0/redesign/static/img/default_poster.png/0/images/masterrepository/Fandango/228137/PULP_Payoff_Descent_1s_v40_B_Mech10b_FS.jpg"
+                alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Strange World</h5>
+                <p class="card-text text-center">2022</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
