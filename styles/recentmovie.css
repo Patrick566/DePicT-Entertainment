@@ -1,12 +1,3 @@
-/* Colors */
-.secondary-bg {
-    background-color: #DE3C4B;
-}
-
-.primary2-bg {
-    background-color: #FFF4E4;
-}
-
 /* Bootstrap edits */
 .jumbotron {
     margin-bottom: 0;
@@ -47,7 +38,6 @@
 .rating {
     position: relative;
     height:40px;
-    background-color: #DE3C4B;
     border-radius:20px;
     top: 5px;
 }

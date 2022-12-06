@@ -39,3 +39,8 @@ nav ul li{
     align-self: center;
     max-height: 70vh;
 }
+
+/* Cards */
+.card-deck{
+    padding: 0 40px 0 40px;
+}

@@ -10,14 +10,7 @@
     padding-bottom: 40px;
 }
 
-.card-body{
-    background-color: #DE3C4B;
-}
-
 .card a{
     color:black;
 }
 
-.card-deck{
-    padding: 0 40px 0 40px;
-}
