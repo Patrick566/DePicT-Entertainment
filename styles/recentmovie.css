@@ -10,6 +10,7 @@
 /* Bootstrap edits */
 .jumbotron {
     margin-bottom: 0;
+    padding:15px;
 }
 
 .container {
@@ -20,7 +21,6 @@
 /* Page Title */
 .title h1 {
     font-size: 50pt;
-    font-family: 'Ovo, sans-serif';
     color:white;
 }
 
