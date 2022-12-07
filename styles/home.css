@@ -14,3 +14,8 @@
     color:black;
 }
 
+.carousel-item img{
+    width: 100%;
+    align-self: center;
+    max-height: 70vh;
+}
